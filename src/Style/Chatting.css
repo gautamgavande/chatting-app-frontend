@@ -1,0 +1,397 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    height: 10vh;
+    width: 100vw;
+    background-color: #2E2E52;
+    /* background-color: #8a889f; */
+    /* background:linear-gradient(to left,#B64B91,#4650B2,#B64B91,#4650B2); */
+}
+.header h4{
+    margin-left:1vw ;
+}
+.header Button{
+    margin-right: 1vw;
+}
+.main{
+    display: flex;
+    height:90vh ;
+    width: 100vw;
+    background-color: grey;
+}
+.sidebar{
+    height: 100%;
+    width: 25%;
+    /* background:linear-gradient(to top,#B64B91,#4650B2); */
+
+    background-color:#3F3E60;
+}
+.body{
+    height: 100%;
+    width: 75%;
+    background:linear-gradient(to left,#B64B91,#4650B2,#B64B91,#4650B2);
+}
+.user{
+    height: 8vh;
+    width:70%;
+    margin-top: 2vh;
+    margin-left:15%;
+    border-radius: 20px;
+    border:   #F0F0F0;
+    color: white;
+    background-color: #35244D;
+    /* background:#763f6394 ; */
+}
+.head{
+   display: flex;
+   align-items: center;
+   
+    height:10% ;
+    width: 100%;
+    background-color: #5E5C8E;
+    /* background-color: #716F8C; */
+}
+.main1{
+    height: 80%;
+    width: 100%;
+    /* background-color: rgb(120, 40, 173); */
+    background-color: #DDDDF7;
+    padding-top:2% ;
+    overflow: scroll;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* background-color: rgba(255, 0, 0, 0.034); */
+}
+.img{
+    margin-left: 1%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://media.istockphoto.com/id/1475805651/photo/confident-in-her-line-of-work.webp?b=1&s=170667a&w=0&k=20&c=-X-KCcUZ062c7pE8tDuLIzpT-CIIC2DNqBiDB0cmHx0=");
+    background-size: cover;
+    background-position: center;
+}
+.headr{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5vh;
+    height: 100%;
+    width: 95%;
+    /* background-color: beige; */
+}
+.headr p{
+    color: white;
+    margin-top: 2vh;
+    margin-left: 2%;
+}
+.headr h6{
+    color: white;
+    margin-left:2% ;
+}
+.iconn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:2vw ;
+    width: 5vw;
+    font-size: 3vh;
+    color:white;
+    /* background-color: #B64B91; */
+}
+.search{
+    margin-right:5% ;
+  
+}
+.input{
+    display: flex;
+    margin-left: 2vw;
+    /* padding-top: 1vh; */
+    
+}
+.send{
+    /* margin-top: 1vh; */
+    margin-left: 1vw;
+    height:50px ;
+    width: 50px;
+    background: blue;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.icon{
+    color: white;
+    transform: rotate(44deg);
+    height: 60%;
+    width: 70%;
+}
+
+.in{
+    border-radius: 25px;
+    background-color: #f0f0f071;
+    
+   
+}
+.box{
+    border-radius: 20px;
+}
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 53vw;
+    border-radius: 15px;
+    height: 8vh;
+    width: 20vw;
+    color: white;
+    background-color: #869EFE;
+}
+.chat1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 25%;
+    background-color: #FFFFFE;
+}
+.chat2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 35%; 
+    color: white;
+    background-color: #869EFE;
+}
+.chat3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 25%;
+    background-color: #FFFFFE;
+}
+.chat4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 33%;
+    background-color: #FFFFFE;
+}
+.chat5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 69%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 28%;
+    color: white;
+    background-color: #869EFE;
+}
+.chat6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 42%;
+    background-color: #FFFFFE;
+}
+.chat7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 69%;
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 8vh;
+    width: 28%;
+    color: white;
+    background-color: #869EFE;
+}
+
+@media  (max-width:600px) {
+    .iconn{
+        
+        margin-right:3vw ;
+        width: 13vw;
+        font-size: 7vh;
+        color:white;
+        /* background-color: #B64B91; */
+    }
+    .headr p{
+        color: white;
+        margin-top: 2vh;
+        margin-left: 5%;
+    }
+    .headr h6{
+        color: white;
+        margin-left:5% ;
+    }
+    .header Button{
+        height: 6vh;
+    }
+    .header h4{
+       font-size: 15px;
+    }
+    .user{
+        height: 6vh;
+        width:100%;
+        margin-top: 2vh;
+        margin-left:0%;
+        font-size: 12px;
+        border-radius: 20px;
+        border:   #F0F0F0;
+        color: white;
+        background-color: #35244D;
+        /* background:#763f6394 ; */
+    }
+    .chat{
+        font-size: 12px;
+        margin-left: 10vw;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+    .chat1{
+        margin-left: 0vw;
+        font-size: 12px;
+        height: 6vh;
+        margin-top: 3vh;
+        width: 70vw;
+     
+    }
+    .chat2{
+        margin-left: 10vw;
+        margin-top: 3vh;
+        font-size: 12px;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+    .chat3{
+        margin-left: 0vw;
+        font-size: 12px;
+        margin-top: 3vh;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+    .chat4{
+        margin-left: 0vw;
+        font-size: 12px;
+        margin-top: 3vh;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+    .chat5{
+        margin-left: 10vw;
+        font-size: 12px;
+        margin-top: 3vh;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+    .chat6{
+        margin-left: 0vw;
+        margin-top: 3vh;
+        font-size: 12px;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+    .chat7{
+        margin-left: 10vw;
+        font-size: 12px;
+        margin-top: 3vh;
+        height: 6vh;
+        width: 70vw;
+     
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+    /* Styles to apply when the screen width is between 601px and 1024px */
+    .chat{
+       
+        margin-left: 21vw;
+        height: 6vh;
+        width: 50vw;
+     
+    }
+    .chat1{
+        margin-left: 3vw;
+        height: 6vh;
+        margin-top: 3vh;
+        width: 45vw;
+     
+    }
+    .chat2{
+       
+        margin-left: 21vw;
+        height: 6vh;
+        width: 50vw;
+     
+    }
+    .chat3{
+        margin-left: 3vw;
+        height: 6vh;
+        margin-top: 3vh;
+        width: 45vw;
+     
+    }
+    .chat4{
+        margin-left: 3vw;
+        height: 6vh;
+        margin-top: 3vh;
+        width: 50vw;
+     
+    }
+    .chat5{
+       
+        margin-left: 21vw;
+        height: 6vh;
+        width: 50vw;
+     
+    }
+    .chat6{
+        margin-left: 3vw;
+        height: 6vh;
+        margin-top: 3vh;
+        width: 50vw;
+     
+    }
+    .chat7{
+       
+        margin-left: 21vw;
+        height: 6vh;
+        width: 50vw;
+     
+    }
+  }
